@@ -4,9 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { LogosComponent } from './components/logos/logos.component';
+import { LogosComponent } from './components/logoAP/logos.component';
 import { SocialComponent } from './components/social/social.component';
-import {BannerComponent} from './components/banner/banner.component' ;
+import {BannerComponent} from './components/banner/banner.component';
+import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component' ;
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {BannerComponent} from './components/banner/banner.component' ;
     HeaderComponent,
     LogosComponent,
     SocialComponent,
-    BannerComponent
+    BannerComponent,
+    SobreMiComponent
 
     ],
   imports: [
