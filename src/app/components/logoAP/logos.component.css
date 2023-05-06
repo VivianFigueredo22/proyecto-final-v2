@@ -1,4 +1,25 @@
-#portada{
-    width: 140px;
-
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.redes{
+    margin-right: 0.5em;
+}
+
+img{
+    width: 130px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+i{
+    font-size: 28px;
+    color: white;
+}
+
+*{
+    outline: 1px solid red;
+}
+
