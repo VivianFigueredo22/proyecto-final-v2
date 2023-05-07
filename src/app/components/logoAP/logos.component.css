@@ -9,17 +9,16 @@
 }
 
 img{
-    width: 130px;
-    margin-top: 0px;
-    margin-left: 5px;
+    width: 120px;
 }
 
 i{
-    font-size: 28px;
+  font-size: 25px;
     color: white;
 }
 
-*{
-    outline: 1px solid red;
+#inicio{
+    font-size: 15px;
 }
+
 

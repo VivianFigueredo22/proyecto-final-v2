@@ -3,7 +3,7 @@ div{
     text-align: center;
 }
 .row{
-    padding: 40px;
+    padding: 50px;
     padding-top: 100px;
  }
 
@@ -20,7 +20,7 @@ div{
   @media (max-width: 575px){
      .img-fluid {
        position: absolute;
-       top: 32%;
+       top:32%;
        left: 24%;
        max-width: 50%;
        border: 1px solid rgb(113, 123, 116);
@@ -32,7 +32,7 @@ div{
     #piedefoto{
        font-weight: 700;
        position: relative;
-       top: 65%;
+       top: 78%;
        height: auto;
        color: white;
        font-size: larger;
@@ -43,7 +43,7 @@ div{
    @media (max-width: 575px){
       #piedefoto{
        font-weight: 700;
-       margin-top: 22%;
+       margin-top: 15%;
        color: white;
        font-size: x-large;
        font-family: 'Arial Narrow';
