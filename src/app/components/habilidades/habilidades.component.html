@@ -1,129 +1,58 @@
-<div class="row">
+ 
+ <div class="row">
   <h1>Hard & Soft skills</h1>
   <div class="text-center col-sm-4 col-md-4 col-lg-4">
-  <circle-progress
-  [title] ="'HTML'"
-  [titleColor]="'#ffffff'"
-  [titleFontSize]="'30px'"
-  [showSubtitle]="true"
-  [animateTitle]="true"
-  [renderOnClick]="true"
-  [percent]="90"
-  [showUnits]="true"
-  [outerStrokeWidth]="10"
-  [innerStrokeWidth]="9"
-  [outerStrokeGradient]="true"
-  [outerStrokeColor]="'#ffffff'"
-  [outerStrokeGradientStopColor]="'#ffffff'"
-  [innerStrokeColor]="'#ffffff'"
-  [animation]="true"
-  [animationDuration]="550"
-  [lazy]="true"
-  ></circle-progress>
-  </div>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
-  <circle-progress
-  [title] ="'CSS'"
-  [titleColor]="'black'"
-  [titleFontSize]="'30px'"
-  [showSubtitle]="false"
-  [percent]="80"
-  [radius]="100"
-  [showUnits]="false"
-  [showSubtitle]="false"
-  [outerStrokeWidth]="10"
-  [innerStrokeWidth]="3"
-  [outerStrokeGradient]="true"
-  [outerStrokeColor]="'black'"
-  [outerStrokeGradientStopColor]="'#655'"
-  [innerStrokeColor]="'lightblue'"
-  [animation]="true"
-  [animationDuration]="550"
-  [lazy]="true"
-  ></circle-progress>
-  </div>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
-  <circle-progress
-  [title] ="'Java Script'"
-  [titleColor]="'black'"
-  [titleFontSize]="'30px'"
-  [showSubtitle]="false"
-  [percent]="70"
-  [radius]="100"
-  [showUnits]="false"
-  [showSubtitle]="false"
-  [outerStrokeWidth]="10"
-  [innerStrokeWidth]="3"
-  [outerStrokeGradient]="true"
-  [outerStrokeColor]="'black'"
-  [outerStrokeGradientStopColor]="'#655'"
-  [innerStrokeColor]="'lightblue'"
-  [animation]="true"
-  [animationDuration]="550"
-  [lazy]="true"
-  ></circle-progress>
-  </div>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
-  <circle-progress
-  [title] ="'SCRUM'"
-  [titleColor]="'black'"
-  [titleFontSize]="'30px'"
-  [showSubtitle]="false"
-  [percent]="85"
-  [radius]="100"
-  [showUnits]="false"
-  [showSubtitle]="false"
-  [outerStrokeWidth]="10"
-  [innerStrokeWidth]="3"
-  [outerStrokeGradient]="true"
-  [outerStrokeColor]="'black'"
-  [outerStrokeGradientStopColor]="'#655'"
-  [innerStrokeColor]="'lightblue'"
-  [animation]="true"
-  [animationDuration]="550"
-  [lazy]="true"
-  ></circle-progress>
-  </div>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
-  <circle-progress
-  [title] ="'Bootstrap'"
-  [titleColor]="'black'"
-  [titleFontSize]="'30px'"
-  [showSubtitle]="false"
-  [percent]="90"
-  [radius]="100"
-  [showUnits]="false"
-  [showSubtitle]="false"
-  [outerStrokeWidth]="10"
-  [innerStrokeWidth]="3"
-  [outerStrokeGradient]="true"
-  [outerStrokeColor]="'black'"
-  [outerStrokeGradientStopColor]="'#655'"
-  [innerStrokeColor]="'lightblue'"
-  [animation]="true"
-  [animationDuration]="550"
-  [lazy]="true"
-  ></circle-progress>
-  </div>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
-  <circle-progress
-  [title] ="'Angular'"
-  [titleColor]="'black'"
-  [titleFontSize]="'30px'"
-  [showSubtitle]="false"
-  [percent]="95"
-  [radius]="100"
-  [showUnits]="false"
-  [showSubtitle]="false"
-  [outerStrokeWidth]="10"
-  [innerStrokeWidth]="3"
-  [outerStrokeGradient]="true"
-  [outerStrokeColor]="'black'"
-  [outerStrokeGradientStopColor]="'#655'"
-  [innerStrokeColor]="'lightblue'"
-  [animation]="true"
-  [animationDuration]="550"
-  [lazy]="true"
-  ></circle-progress>
-  </div>
- 
+    
+  <!-- <circle-progress>
+      background: #a7b2a5 ;
+      padding: 60px;
+      color: white;
+  
+  circle-progress {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    circle-progress .circle-progress {
+      position: relative;
+      border-radius: 50%;
+      border-style: solid;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+    }
+    
+    circle-progress .circle-progress .circle-progress-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      border-style: solid;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      animation-name: none;
+    }
+    
+    circle-progress .circle-progress .circle-progress-text {
+      font-size: 48px;
+      font-weight: bold;
+      color: #333;
+      margin-left: 16px;
+    }
+    
+    circle-progress .circle-progress .circle-progress-bar {
+      border-color: #C7E596;
+      border-width: 8px;
+    }
+    
+    circle-progress .circle-progress .circle-progress-bar .circle-progress-value {
+      border-color: #78C000;
+      border-width: 16px;
+      animation: progress 300ms linear infinite;
+      animation-fill-mode: forwards;
+      animation-play-state: running;
+    }
+  </circle-progress> -->
